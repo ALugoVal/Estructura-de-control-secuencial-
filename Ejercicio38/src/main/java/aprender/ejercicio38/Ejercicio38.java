@@ -47,8 +47,8 @@ public class Ejercicio38 {
    public static int calcularedad(int dianac, int mesnac, int añonac, int diahoy, int meshoy, int añohoy) {
     int edad = añohoy - añonac;
 
-    boolean yaCumplioEsteAnio = (meshoy > mesnac) || (meshoy == mesnac && diahoy >= dianac);
-    if (!yaCumplioEsteAnio) {
+    boolean yacumplioesteaño = (meshoy > mesnac) || (meshoy == mesnac && diahoy >= dianac);
+    if (!yacumplioesteño) {
         edad = edad - 1;
     }
 
